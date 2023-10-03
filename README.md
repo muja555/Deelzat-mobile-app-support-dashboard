@@ -3,6 +3,13 @@
 (2020-2022)
 a backup source file for the Deelzat mobile app customer support dashboard, which allows users to send and receive messages to chat with the support account
 
+## Related
+
+- [Deelzat Mobile App Showcase](https://github.com/muja555/Deelzat-mobile-app-showcase)
+- [Deezat Mobile App Firebase Functions Showcase](https://github.com/muja555/Deezat-mobile-app-Firebase-Functions-showcase)
+- [Deelzat Mobile App Support Dashboard Showcase](https://github.com/muja555/Deelzat-mobile-app-support-dashboard-showcase)
+- [Deelzat Mobile App Analytics Dashboard](https://github.com/muja555/Deelzat-mobile-app-analytics-dashboard)
+
 
 # Getting Started with Create React App
 
