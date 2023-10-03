@@ -1,0 +1,22 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - REACT_APP_AUTH0_DOMAIN=${REACT_APP_AUTH0_DOMAIN}
+        - REACT_APP_AUTH0_CLIENTID=${REACT_APP_AUTH0_CLIENTID}
+        - REACT_APP_AUTH0_AUDIENCE=${REACT_APP_AUTH0_AUDIENCE}
+        - REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL}
+        - REACT_APP_FIREBASE_FUNCTOINS=${REACT_APP_FIREBASE_FUNCTOINS}
+        - REACT_APP_API_KEY=${REACT_APP_API_KEY}
+        -  yarn install
+    build:
+      commands:
+        - yarn run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

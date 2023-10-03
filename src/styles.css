@@ -1,0 +1,86 @@
+.rce-mbox {
+    background: #F4F4F4;
+}
+
+.rce-mbox-right {
+    background: #00A698;
+}
+
+.rce-mbox-left-notch {
+    fill: #F4F4F4;
+}
+
+.rce-mbox-right-notch {
+    fill: #00A698;
+}
+
+.rce-mbox-text {
+    color: white;
+}
+
+.rce-mbox-text.left {
+    color: black;
+}
+
+.rce-mlist {
+    flex: initial;
+    width: 100%;
+}
+
+.rce-mbox-photo {
+    cursor: pointer;
+}
+
+.conversations-list-tab-button {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #00A698;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+
+.conversations-list-tab-button-selected {
+    border-bottom-width: 3px;
+    border-bottom-color: #00A698;
+    border-bottom-style: solid;
+}
+
+.options-modal {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+    height: 80px;
+    width: 350px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-width: 1px;
+    border-color: #282c34;
+    border-style: solid;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.29);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.29);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+.glowOut{
+    background: #fcb603;
+    transition: background-color 0.5s ease-out;
+
+}
+.glowIn{
+    background: white;
+    transition: background-color 0.5s ease-in;
+
+}
+
+.starredNotGlow {
+    background: #FBBC05;
+    transition: background-color 0.5s ease-in;
+}
